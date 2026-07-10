@@ -1,4 +1,4 @@
-INSERT INTO roles (id, authority) VALUES (1, 'ROLE_USER') ON CONFLICT (id) DO ;
+INSERT INTO roles (id, authority) VALUES (1, 'ROLE_USER') ON CONFLICT (id) DO NOTHING;
 INSERT INTO roles (id, authority) VALUES (2, 'ROLE_FAMILIAR') ON CONFLICT (id) DO NOTHING;
 INSERT INTO roles (id, authority) VALUES (3, 'ROLE_INSTITUCION') ON CONFLICT (id) DO NOTHING;
 
