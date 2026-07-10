@@ -69,7 +69,7 @@ public class SecurityConfig {
         // Permite peticiones SÓLO desde tu frontend de Angular
         configuration.setAllowedOrigins(Arrays.asList(
                 "http://localhost:4200",
-                "http://54.166.184.215:4200"
+                "http://54.92.130.37:4200"
         ));
         // Permite los métodos HTTP que usaremos
         configuration.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "DELETE", "OPTIONS"));
